@@ -1,6 +1,63 @@
+:root {
+  --magenta: #ff00ff;
+  --gold: #FDA800;
+  --green: #006500;
+  --darkviolet: #810082;
+  --maroon: #800000;
+  --darkgolden: #8f6805;
+  --orange: #
+}
+
+@media (min-width: 0px) {
+  body {
+    background: var(--darkviolet);
+    color: var(--white);
+  }
+  nav ul li {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: var(--gold);
+    color: var(--black);
+  }
+  nav ul li {
+  display: inline-block;
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     background: var(--green);
     color: var(--white);
   }
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+h3, p {
+  padding: 10px;
 }
