@@ -1,11 +1,11 @@
 :root {
   --magenta: #ff00ff;
-  --gold: #FDA800;
+  --gold: #fda800;
   --green: #006500;
   --darkviolet: #810082;
   --maroon: #800000;
   --darkgolden: #8f6805;
-  --orange: #
+  /* --orange:  */
 }
 
 @media (min-width: 0px) {
@@ -24,7 +24,7 @@
     color: var(--black);
   }
   nav ul li {
-  display: inline-block;
+    display: inline-block;
   }
 }
 
@@ -58,6 +58,7 @@ nav ul li a {
   padding: 10px;
 }
 
-h3, p {
+h3,
+p {
   padding: 10px;
 }
